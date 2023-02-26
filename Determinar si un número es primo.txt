@@ -1,0 +1,25 @@
+[variables]
+x : entero
+n : flotante  
+i : entero 
+
+inicio
+
+n=2
+
+Para (n<x) hacer 
+	i = 2
+	mientras (i<n^0.5) hacer
+		si modulo (n,i) == 0 entonces 
+			escribir (n" no es un número primo")
+			n = n + 1
+		sino 
+			i = i + 1
+	fin mientras 
+
+	si (i>n^0.5) enonces  
+		escribir (n"es un número primo")
+		n = n + 1 
+fin para 
+
+fin
